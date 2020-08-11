@@ -25,6 +25,7 @@ const createAutoComplete = ({ root, renderOption, onOptionSelect, inputValue, fe
         result.innerHTML = ""
         dropdown.classList.add('is-active') 
         const dropdownmenu = document.querySelector('.dropdown-menu')
+        dropdownmenu.style.width = "500px"
 
         for(let item of items) {
             const option = document.createElement('a')
