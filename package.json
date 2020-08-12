@@ -1,11 +1,22 @@
 {
   "name": "movie-fight",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Required Backend for Hosting Movie-Fight App",
+  "main": "serverside.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rEflxzR/Movie-Fight.git"
+  },
+  "author": "PC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rEflxzR/Movie-Fight/issues"
+  },
+  "homepage": "https://github.com/rEflxzR/Movie-Fight#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
