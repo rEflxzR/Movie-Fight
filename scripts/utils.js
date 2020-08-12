@@ -22,7 +22,7 @@ const autoCompleteConfig = {
         return movie.Title
     },
     async fetchData(searchterm) {                                              // MAKES FOLLOW-UP REQUEST WHEN A MOVIE IS CLICKED INSIDE THE WIDGET
-        const response = await axios.get('http://www.omdbapi.com/', {
+        const response = await axios.get('https://www.omdbapi.com/', {
             params: {
                 apikey: 'c17b9d2b',
                 s: searchterm
